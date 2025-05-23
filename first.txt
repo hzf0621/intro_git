@@ -1,7 +1,13 @@
 Gitの練習をしていきます。
 基本的なワークフローを学びます。
-・git add
+・git add             変更履歴の確認対象として追加
+  git add xxx         1つファイルが変更履歴確認対象時の場合利用
+  git add .           1つ以上ファイルが対象時の場合利用
 ・git commit
+  git commit -v
 ・git status
 ・git log
-・git rm
+  git log --oneline   変更履歴の変更内容のみ表示
+  git log -n xxx      変更履歴のログの最新xxx行のみ表示
+・git rm xxx          変更履歴の確認対象にあるファイル削除時
+・git diff
